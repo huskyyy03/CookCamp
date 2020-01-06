@@ -1,0 +1,302 @@
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+    margin: 8px 0 15px 0;
+}
+
+.width_adjustment {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main_picture {
+    width: 960px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+headerlogo{
+    float: left;
+}
+
+.header_p {
+    margin-top: 0px;
+    clear: both;
+    position: absolute;
+    top: 45px;
+}
+    
+
+form {
+    float: right;
+    margin-top: 5px;
+}
+
+.namebox {
+    padding: 5px;
+}
+
+.searchbox {
+    padding-bottom: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.allcolor {
+    background-color: #f5f5dd;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    min-width: 960px;
+}
+
+.headlist {
+    clear: both;
+    margin-bottom: 3px;
+    padding: 3px 0px;
+    display: flex;
+}
+
+.headlist li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.headlist li + li {
+    border-left: 1px solid #cccccc;
+}
+
+.headlist a {
+    color: #664433;
+    /*border-right: 1px solid grey;*/
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.main_contents {
+    background-color: #f5f5dd;
+    display: inline-block;
+    margin-top: 10px;
+    width: 960px;
+}
+
+nav {
+    float: left;
+    margin-right: 13px;
+}
+
+article {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+h2 {
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    clear: both;
+    background: #99BB21 url(dish.png) no-repeat 14px 6px;
+    padding-left: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/*h2::before {*/
+/*    content:"";*/
+/*    background: url(dish.png) no-repeat;*/
+/*    width: 25px;*/
+/*    height: 15px;*/
+/*    display: inline-block;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+nav ul {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+nav ul li {
+    border-bottom: dotted 1px #cccccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: url(arrow.png) no-repeat 5px;
+    padding-left: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.left_icon {
+    background: url(arrow.png) no-repeat 10px;
+    padding-left: 30px;
+}
+
+/*nav ul li::before, .foodfloat a::before, .easy_recipe a::before {*/
+/*    content:"";*/
+/*    background: url(arrow.png) no-repeat;*/
+/*    height: 12px;*/
+/*    width: 20px;*/
+/*    display: inline-block;*/
+/*    margin-left: 5px;*/
+/*}*/
+
+nav ul li:last-child {
+    border-bottom: 0;
+}
+
+nav ul a {
+    color: #000000;
+}
+.left_recipeA, .left_recipeB {
+    background-color: white;
+    width: 200px;
+    padding-top: 0.5px;
+}
+
+.icon {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.icon p {
+    font-size: 8px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.new_recipe, .japanese_food, .easy_recipe {
+    background-color: white;
+    width: 580px;
+    padding-top: 0.5px;
+}
+
+.foodfloat img {
+    margin-left: 12px;
+    float: left;
+}
+
+.japanese_food_sentence {
+    float: right;
+    width: 300px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+
+.first_p {
+    margin-top: 0px;
+}
+
+.foodfloat a {
+    float: right;
+    clear: both;
+}
+
+.japanese_food {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+.easy_recipe {
+    margin-bottom: 8px;
+}
+
+.foodfloat a, .easy_recipe a {
+    color: #fc8833;
+}
+
+h3 {
+    color: #993333;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.easy_recipe_top {
+    margin-bottom: 10px;
+}
+
+.easy_recipe_bottom {
+    padding-bottom: 20px;
+}
+
+.easy_recipe_top img {
+    padding-left: 10px;
+    float: left;
+}
+
+.easy_recipe_bottom img {
+    padding-left: 10px;
+    clear: both;
+    float: left;
+}
+
+.easy_recipe_sentence {
+    float: right;
+    width: 300px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.easy_recipe_sentence p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.easy_recipe_sentence a {
+    float: right;
+    clear: right;
+}
+
+.advertisementA {
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+
+footer ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer li + li {
+    border-left: 1px solid #cccccc;
+}
+
+footer p {
+    text-align: center;
+    color: #cccccc;
+}
+
+footer a {
+    color: #000000;
+}
